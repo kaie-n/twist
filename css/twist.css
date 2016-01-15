@@ -270,7 +270,7 @@ header {
         header .intro-text .intro-heading {
             font-family: 'Montserrat Light', arial;
             font-weight: 700;
-            font-size: 55px;
+            font-size: 40px;
             line-height: 50px;
             margin-bottom: 5px;
         }
@@ -831,6 +831,9 @@ ul.social-buttons {
 
 .top-buffer {
     margin-top: 10px;
+}
+.bottom-buffer {
+    margin-bottom: 10px;
 }
 
 ::-moz-selection {

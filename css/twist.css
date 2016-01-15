@@ -306,6 +306,7 @@ section {
         font-size: 40px;
         margin-top: 0;
         margin-bottom: 15px;
+        text-align: center;
     }
 
     section h3.section-subheading {
@@ -315,23 +316,30 @@ section {
         text-transform: none;
         font-weight: 400;
         margin-bottom: 25px;
+        text-align: center;
     }
 
     section h4.section-subheading {
         font-size: 16px;
         font-family: 'Montserrat Light', arial;
         text-transform: none;
-        font-weight: 400;
+        font-weight: 600;
+        text-align: center;
     }
+
         section h4.section-subheading i {
-        font-size: 24px;
-        margin-right: 10px;
-    }
+            font-size: 24px;
+            margin-right: 10px;
+        }
 
 @media (min-width:768px) {
     section {
         padding: 150px 0;
     }
+
+        section h2.section-heading, section h3.section-subheading, section h4.section-subheading {
+            text-align: left;
+        }
 }
 
 .service-heading {
@@ -832,6 +840,11 @@ ul.social-buttons {
 .top-buffer {
     margin-top: 10px;
 }
+
+.top-buffer-25 {
+    margin-top: 25px;
+}
+
 .bottom-buffer {
     margin-bottom: 10px;
 }

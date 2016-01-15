@@ -845,6 +845,12 @@ ul.social-buttons {
     margin-top: 25px;
 }
 
+@media (min-width:768px) {
+    .top-buffer-25 {
+        margin-top: 0px;
+    }
+}
+
 .bottom-buffer {
     margin-bottom: 10px;
 }

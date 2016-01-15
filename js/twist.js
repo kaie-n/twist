@@ -25,3 +25,9 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(window).load(function () {
+    // PAGE IS FULLY LOADED  
+    // FADE OUT YOUR OVERLAYING DIV
+    $('#overlay').fadeOut();
+});

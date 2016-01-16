@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default {
     background-color: #000;
     border-color: transparent;
-    opacity: 0.9;
+    opacity: 1;
 }
 
     .navbar-default .navbar-brand {
@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
         .navbar-default.navbar-shrink {
             background-color: #000;
             padding: 25px 0;
-            opacity: 0.9;
+            opacity: 1;
         }
 
             .navbar-default.navbar-shrink .navbar-brand {

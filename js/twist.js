@@ -15,7 +15,6 @@ $(function() {
     });
 });
 
-$('html').css({ 'overflow-y': 'hidden', 'height': '100%' })
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
@@ -33,8 +32,4 @@ $(window).load(function () {
     // FADE OUT YOUR OVERLAYING DIV
     $('#overlay').fadeOut();
 
-    setTimeout(function () {
-        $('html, body').removeAttr('style')
-    }, 1500)
-    
 });

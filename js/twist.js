@@ -33,5 +33,8 @@ $(window).load(function () {
     // FADE OUT YOUR OVERLAYING DIV
     $('#overlay').fadeOut();
 
-    $('html').css({ 'overflow-y': 'auto', 'height': '100%' })
+    setTimeout(function () {
+        $('html, body').removeAttr('style')
+    }, 1500)
+    
 });

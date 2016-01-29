@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Bootstrap Theme (http://startbootstrap.com)
+ * Twist Photography SG
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -33,3 +33,5 @@ $(window).load(function () {
     $('#overlay').fadeOut();
 
 });
+
+new WOW().init();
